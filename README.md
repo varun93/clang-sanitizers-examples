@@ -31,7 +31,7 @@ PROGRAM_NAME can take the following values:
 
 ## Option Two:
 Compile using clang and run the executable with relevant flags:  
-``` clang -fsanitize=SANITIZER -g SOURCE_PROGRAM -o EXECUTABLE ```
+``` clang -fsanitize=SANITIZER -g SOURCE_PROGRAM -o EXECUTABLE ```  
 ``` ./EXECUTABLE  ```
 
 
