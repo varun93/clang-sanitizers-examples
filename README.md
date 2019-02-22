@@ -1,15 +1,24 @@
 # Clang Sanitizers
 
+Plan to update the list as and when I explore more.
+
 - Address Santizers
   - Use After Free
   - Stack Buffer Flow
   - Heap Buffer Flow
   - Global Buffer Flow
   - Stack Use After Return
+  - Address Use After Scope
   - Memory Leak
 
 - Memory Sanitizers
   - Unitialized Memory Read
+ 
+- Undefined Behaviour Sanitizers
+  - Integer Overflow
+  - Use of Null Pointer
+  - Float Cast Overflow
+  - Divide By Zero
   
 # How to Run?
 
