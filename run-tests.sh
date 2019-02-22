@@ -25,6 +25,9 @@ case ${program} in
   UMR) 
     clang -fsanitize=memory -fno-omit-frame-pointer -g -O2 umr.c -o umr  
     ;;
+  INTEGER_OVERFLOW) 
+    ./integer-overflow
+    ;;
    *)  
     echo "No such program" 
     exit 1 
