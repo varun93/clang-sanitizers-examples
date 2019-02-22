@@ -20,14 +20,15 @@ when I explore more.
   - Address Use After Scope
   - Memory Leak
 
-- **Memory Sanitizers**
-  - Unitialized Memory Read
- 
 - **Undefined Behaviour Sanitizers**
   - Integer Overflow
   - Use of Null Pointer
   - Float Cast Overflow
   - Divide By Zero
+
+- **Memory Sanitizers**
+  - Unitialized Memory Read
+ 
   
 # How to Run?
 
