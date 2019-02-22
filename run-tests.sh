@@ -28,6 +28,9 @@ case ${program} in
   INTEGER_OVERFLOW) 
     ./integer-overflow
     ;;
+  DIVIDE_BY_ZERO) 
+    ./divide-by-zero
+    ;;
    *)  
     echo "No such program" 
     exit 1 
