@@ -2,7 +2,7 @@
 
 - Clang sanitizers are runtime checkers used to identify suspicious and undefined behavior. The checking occurs at runtime with actual runtime parameters so false positives are kept to a minimum. 
 - Sanitizers work in two phases, one is during compile time when it instruments the source code, and then there is the runtime checking. 
-- It goes without saying sanitizers come with a performance cost in terms of both execution time and memory overhead which usually depends on the detail  of errors a developer wants to track, amount of memory allocated etc.
+- It goes without saying sanitizers come with a performance cost in terms of both execution time and memory overhead which usually depends on the detail  of errors a developer wants to track, amount of memory allocated etc. Again for certain sanitizers developer can reduce the runtime overhead using ``` -fsanitize-minimal-runtime``` flag.
 - Clang Sanitizers do not have support all architectures.  
 - There are options to turn turn off sanitizer instrumentations by use of an attribute ``` __attribute__((no_sanitize("address"))) ```. 
 
