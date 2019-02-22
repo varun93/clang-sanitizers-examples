@@ -1,2 +1,3 @@
-# clang-sanitizers-examples
+# Clang Sanitizers
+
 List of Clang Supported Sanitizers
