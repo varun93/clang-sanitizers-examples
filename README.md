@@ -49,6 +49,8 @@ PROGRAM_NAME can take the following values:
   - ADDRESS_USE_AFTER_SCOPE
   - MEMORY_LEAK
   - UMR
+  - INTEGER_OVERFLOW
+  - DIVIDE_BY_ZERO
 
 ## Option Two:
 Compile using clang and run the executable with relevant flags:  
