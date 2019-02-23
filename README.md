@@ -11,6 +11,8 @@ There are a number of sanitizers available, but two that used on a regular basis
 I have included examples of some of the most commonly used sanitizer options.Plan to update the list as and 
 when I explore more.
 
+**Note** : I have committed the executables in the repository just in case someone wants to quickly try it. 
+
 - **Address Santizers**
   - Use After Free
   - Stack Buffer Flow
